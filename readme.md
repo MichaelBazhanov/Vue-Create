@@ -26,7 +26,7 @@ $ yarn upgrade-interactive --latest
 $ yarn add --dev @vue/test-utils vue-jest babel-jest @babel/core @babel/preset-env babel-core@^7.0.0-bridge.0
 ```
 > https://vue-test-utils.vuejs.org/installation/#semantic-versioning
-
+***
 > В этой инструкции содержится описание настройки транспиллера babel (.babelrc file) так и тест-ранера jest (jest.config.js file)
 
 
