@@ -15,18 +15,28 @@ $ npm run dev
 $ yarn upgrade vue@^2.6.12
 ```
 
+##### **Обновление package.json**
+```sh
+"browserslist": [
+	"> 1%",
+	"last 2 versions",
+	"not dead"
+],
+```
+
 ##### **Обновление Babel**
 ```sh
 $ Замена старого написания на новое, плюс доп (удалить из package.json)
 	"babel-core": "^6.26.0",
-    "babel-preset-env": "^1.6.0",
-    "babel-preset-stage-3": "^6.24.1",
+	"babel-preset-env": "^1.6.0",
+	"babel-preset-stage-3": "^6.24.1",
 $ yarn add --dev @babel/core @babel/preset-env @babel/plugin-syntax-dynamic-import @babel/plugin-transform-runtime
 
 ```
 
 ##### **Обновление всех зависимостей**
 ```sh
+$ yarn outdated (осмотр устаревших зависимостей)
 $ yarn upgrade --latest
 $ или
 $ yarn upgrade-interactive --latest
