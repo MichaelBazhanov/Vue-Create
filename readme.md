@@ -46,11 +46,18 @@ $ yarn add --dev babel-loader @babel/core @babel/preset-env @babel/plugin-syntax
 }
 ```
 
-##### **Обновление webpack**
+##### **Обновление webpack** Возможно эти версии пакетов по одиночке можно обновить вверх
 ```sh
-$ yarn upgrade webpack@^4.29.5       1
-$ yarn upgrade webpack@^3.11.0       2
-$ yarn add --dev webpack-cli@^4.2.0  3
+$ yarn upgrade webpack@^4.29.5
+$ yarn upgrade webpack-dev-server@^3.11.0
+$ yarn add --dev webpack-cli@^4.2.0
+$ yarn upgrade vue-loader@^15.6.4
+>	Подключаем VueLoaderPlugin в webpack.config.js
+>	const VueLoaderPlugin = require('vue-loader/lib/plugin')
+>	plugins: [
+		new VueLoaderPlugin(),
+	],
+$ yarn upgrade vue-template-compiler@^2.6.7
 ```
 
 ##### **Обновление всех зависимостей**
