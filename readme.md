@@ -46,6 +46,13 @@ $ yarn add --dev babel-loader @babel/core @babel/preset-env @babel/plugin-syntax
 }
 ```
 
+##### **Обновление webpack**
+```sh
+$ yarn upgrade webpack@^4.29.5       1
+$ yarn upgrade webpack@^3.11.0       2
+$ yarn add --dev webpack-cli@^4.2.0  3
+```
+
 ##### **Обновление всех зависимостей**
 ```sh
 $ yarn outdated (осмотр устаревших зависимостей)
