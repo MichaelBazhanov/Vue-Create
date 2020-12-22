@@ -30,8 +30,20 @@ $ Замена старого написания на новое, плюс до�
 	"babel-core": "^6.26.0",
 	"babel-preset-env": "^1.6.0",
 	"babel-preset-stage-3": "^6.24.1",
-$ yarn add --dev @babel/core @babel/preset-env @babel/plugin-syntax-dynamic-import @babel/plugin-transform-runtime
+$ yarn add --dev babel-loader @babel/core @babel/preset-env @babel/plugin-syntax-dynamic-import @babel/plugin-transform-runtime
 
+```
+##### **Обновление .babelrc**
+```sh
+{
+	"presets": [
+		"@babel/preset-env"
+	],
+	"plugins": [
+		"@babel/plugin-transform-runtime",
+		"@babel/plugin-syntax-dynamic-import"
+	]
+}
 ```
 
 ##### **Обновление всех зависимостей**
