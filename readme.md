@@ -10,6 +10,21 @@ $ npm install
 $ npm run dev
 ```
 
+##### **Обновление Vue**
+```sh
+$ yarn upgrade vue@^2.6.12
+```
+
+##### **Обновление Babel**
+```sh
+$ Замена старого написания на новое, плюс доп (удалить из package.json)
+	"babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-stage-3": "^6.24.1",
+$ yarn add --dev @babel/core @babel/preset-env @babel/plugin-syntax-dynamic-import @babel/plugin-transform-runtime
+
+```
+
 ##### **Обновление всех зависимостей**
 ```sh
 $ yarn upgrade --latest
