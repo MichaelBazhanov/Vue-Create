@@ -79,7 +79,7 @@ $ yarn upgrade-interactive --latest
 
 ##### **Добавление модульное(UNIX) тестирование компонентов  Vue Test Utils**
 ```sh
-$ yarn add --dev @vue/test-utils vue-jest babel-jest @babel/core @babel/preset-env babel-core@^7.0.0-bridge.0
+$ yarn add --dev @vue/test-utils jest vue-jest babel-jest @babel/core @babel/preset-env babel-core@^7.0.0-bridge.0
 ```
 > https://vue-test-utils.vuejs.org/installation/#semantic-versioning
 
