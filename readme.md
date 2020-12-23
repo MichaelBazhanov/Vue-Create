@@ -22,6 +22,11 @@ $ yarn upgrade vue@^2.6.12
 	"last 2 versions",
 	"not dead"
 ],
+"scripts": {
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
+    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules",
+    "test": "jest"
+},
 ```
 
 ##### **Обновление Babel**
