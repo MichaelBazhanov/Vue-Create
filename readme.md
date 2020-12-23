@@ -72,10 +72,10 @@ $ yarn upgrade --latest
 $ или
 $ yarn upgrade-interactive --latest
 	"cross-env": "^5.0.5", > "^7.0.3" good
-    "css-loader": "^0.28.7",
-    "file-loader": "^1.1.11", > "^6.2.0" bad
-    "node-sass": "^4.5.3",
-    "sass-loader": "^6.0.6",
+	"css-loader": "^0.28.7",
+	"file-loader": "^1.1.11", > "^6.2.0" bad
+	"node-sass": "^4.5.3",
+	"sass-loader": "^6.0.6",
 ```
 > https://classic.yarnpkg.com/ru/docs/cli/upgrade/
 
