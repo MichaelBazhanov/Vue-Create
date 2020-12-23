@@ -89,3 +89,4 @@ $ yarn add --dev @vue/test-utils jest vue-jest babel-jest @babel/core @babel/pre
 > 2) либо хранятся в папке где находится сам компонент Vue
 
 
+
